@@ -11,5 +11,6 @@
   background: #FF5954
 }
 
-
-
+#game {
+  transition: all 0.3s;
+}

@@ -4,9 +4,14 @@
 
 var JC = JC || {};
 
+JC.init = (function(controller) {
+  return function() {
+    controller.init();
+  }
+})(JC.controller);
 
 $(document).ready(function() {
-  // Start your app here!
+  JC.init();
 });
 
 
